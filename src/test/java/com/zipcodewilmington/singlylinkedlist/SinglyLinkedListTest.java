@@ -14,7 +14,7 @@ public class SinglyLinkedListTest {
     public void ListTest(){
         LinkedList<String> set1 = new LinkedList<String>();
         set1.addFirst("Hey");
-        assertEquals(true, set1.contains("Bob"));
+        assertEquals(true, set1.contains("Hey"));
 
     }
     @Test
